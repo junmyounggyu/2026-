@@ -1,0 +1,14 @@
+numpy==1.26.4
+scipy==1.11.4
+shapely==2.0.4
+opencv-python==4.9.0.80
+open3d==0.19.0
+matplotlib==3.8.4
+ultralytics==8.4.14
+torch==2.4.1
+PyYAML==6.0.3
+tqdm==4.67.3
+ConfigArgParse==1.7
+setuptools>=68.0.0
+tensorboard==2.16.2
+numba==0.59.1
