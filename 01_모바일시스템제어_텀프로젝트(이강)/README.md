@@ -47,5 +47,5 @@ flowchart LR
 
 - [기존 공동 프로젝트 README](https://github.com/junmyounggyu/2026-autonomous-driving-hackathon-portfolio/blob/main/%EB%AA%A8%EB%B0%94%EC%9D%BC%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%A0%9C%EC%96%B4%20%ED%85%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%28%EC%A0%84%EB%AA%85%EA%B7%9C%29/README.md)
 - [기존 Stanley + PID/FF 제어 코드](https://github.com/junmyounggyu/2026-autonomous-driving-hackathon-portfolio/blob/main/%EB%AA%A8%EB%B0%94%EC%9D%BC%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%A0%9C%EC%96%B4%20%ED%85%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%28%EC%A0%84%EB%AA%85%EA%B7%9C%29/racing_node.py)
-- [MSC_RacingSimul 제어 노드](https://github.com/eriverOoO/MSC_RacingSimul/blob/main/src/my_racing_pkg/my_racing_pkg/racing_node.py)
-- [MSC_RacingSimul mock simulator](https://github.com/eriverOoO/MSC_RacingSimul/blob/main/src/my_racing_pkg/my_racing_pkg/mock_sim.py)
+- [MSC_RacingSimul 제어 노드](https://github.com/lee-lab-skku/MSC_RacingSimul/blob/main/src/my_racing_pkg/my_racing_pkg/racing_node.py)
+- [MSC_RacingSimul mock simulator](https://github.com/lee-lab-skku/MSC_RacingSimul/blob/main/src/my_racing_pkg/my_racing_pkg/mock_sim.py)

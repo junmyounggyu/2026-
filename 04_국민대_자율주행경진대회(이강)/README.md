@@ -54,7 +54,7 @@ flowchart LR
 
 ## 코드 근거
 
-- [통합 주행 제어](https://github.com/eriverOoO/skkrrr/blob/main/track_drive/track_drive.py)
-- [카메라 차선 인식](https://github.com/eriverOoO/skkrrr/blob/main/track_drive/lane_detection.py)
-- [라바콘 경로 생성](https://github.com/eriverOoO/skkrrr/blob/main/track_drive/cone_detection.py)
-- [LiDAR 장애물 처리](https://github.com/eriverOoO/skkrrr/blob/main/track_drive/lidar.py)
+- [통합 주행 제어](https://github.com/lee-lab-skku/skkrrr/blob/main/track_drive/track_drive.py)
+- [카메라 차선 인식](https://github.com/lee-lab-skku/skkrrr/blob/main/track_drive/lane_detection.py)
+- [라바콘 경로 생성](https://github.com/lee-lab-skku/skkrrr/blob/main/track_drive/cone_detection.py)
+- [LiDAR 장애물 처리](https://github.com/lee-lab-skku/skkrrr/blob/main/track_drive/lidar.py)

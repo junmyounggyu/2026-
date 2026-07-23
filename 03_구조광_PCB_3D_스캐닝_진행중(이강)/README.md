@@ -8,9 +8,9 @@
 
 | 단계 | 저장소 | 책임 |
 | --- | --- | --- |
-| UV 카메라 캡처 | `PRO4500_Control_System-UV` | PRO4500 패턴 투사, XIMEA xiAPI 촬영, 다중 노출 HDR, 메타데이터 |
+| UV 카메라 캡처 | `PRO4500_CONTROL_ximea` | PRO4500 패턴 투사, XIMEA xiAPI 촬영, 다중 노출 HDR, 메타데이터 |
 | 모바일 캡처 | `PRO4500_Android_CONTROL` | PC 마스터, Android CameraX 촬영, WebSocket/HTTP 동기화, 0°/180° 진행 |
-| 3D 복원 | `PCBSCAN_calc_height` | Gray code/PSP 위상 복원, 기준면·캘리브레이션, 정합·융합, GUI/EXE |
+| 3D 복원 | `Non-planar_calc` | Gray code/PSP 위상 복원, 기준면·캘리브레이션, 정합·융합, GUI/EXE |
 
 앞의 두 저장소는 서로 다른 카메라 경로이며, 둘 다 디코더가 읽는 `pattern_000.png`…`pattern_021.png` 계약을 사용합니다.
 
@@ -81,10 +81,10 @@ White / Black correction
 
 ## 코드와 문서
 
-- [XIMEA UV 캡처 시스템](https://github.com/eriverOoO/PRO4500_Control_System-UV)
-- [카메라 추상화](https://github.com/eriverOoO/PRO4500_Control_System-UV/blob/main/camera_provider.py)
-- [Android 캡처 시스템](https://github.com/eriverOoO/PRO4500_Android_CONTROL)
-- [PC–Android 프로토콜](https://github.com/eriverOoO/PRO4500_Android_CONTROL/blob/main/protocol.md)
-- [PCB FPP 디코더](https://github.com/eriverOoO/PCBSCAN_calc_height)
-- [높이 계산 이론](https://github.com/eriverOoO/PCBSCAN_calc_height/blob/main/HEIGHT_CALCULATION_THEORY.md)
-- [디코더 핵심 구현](https://github.com/eriverOoO/PCBSCAN_calc_height/blob/main/pcb_fpp_decoder/decoder.py)
+- [XIMEA UV 캡처 시스템](https://github.com/lee-lab-skku/PRO4500_CONTROL_ximea)
+- [카메라 추상화](https://github.com/lee-lab-skku/PRO4500_CONTROL_ximea/blob/main/camera_provider.py)
+- [Android 캡처 시스템](https://github.com/lee-lab-skku/PRO4500_Android_CONTROL)
+- [PC–Android 프로토콜](https://github.com/lee-lab-skku/PRO4500_Android_CONTROL/blob/main/protocol.md)
+- [PCB FPP 디코더](https://github.com/lee-lab-skku/Non-planar_calc)
+- [높이 계산 이론](https://github.com/lee-lab-skku/Non-planar_calc/blob/main/HEIGHT_CALCULATION_THEORY.md)
+- [디코더 핵심 구현](https://github.com/lee-lab-skku/Non-planar_calc/blob/main/pcb_fpp_decoder/decoder.py)
